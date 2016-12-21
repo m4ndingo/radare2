@@ -1,0 +1,13 @@
+os:
+  - linux
+
+language: c
+
+compiler:
+  - gcc
+  - clang
+  
+version: 1.0.{build}
+
+build_script:
+  - cmd: sys\mingw64.sh

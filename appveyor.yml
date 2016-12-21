@@ -1,10 +1,6 @@
 os:
   - linux
 
-compiler:
-  - gcc
-  - clang
-  
 version: 1.0.{build}
 
 build_script:

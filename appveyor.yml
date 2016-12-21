@@ -1,7 +1,4 @@
-os:
-  - linux
-
 version: 1.0.{build}
 
 build_script:
-  - cmd: sys\mingw64.sh
+  - cmd: sys\mingw32.bat
